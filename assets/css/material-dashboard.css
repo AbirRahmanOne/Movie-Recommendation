@@ -20759,17 +20759,14 @@ Copyright (c) 2015 Daniel Eden
 
 .dark-edition .form-control::-moz-placeholder {
   color: #a9afbbd1;
-  font-weight:bold;
 }
 
 .dark-edition .form-control:-ms-input-placeholder {
   color: #a9afbbd1;
-  font-weight:bold;
 }
 
 .dark-edition .form-control::-webkit-input-placeholder {
   color: #a9afbbd1;
-  font-weight:bold;
 }
 
 .dark-edition .bmd-form-group:not(.has-success):not(.has-danger) [class^='bmd-label'].bmd-label-floating,

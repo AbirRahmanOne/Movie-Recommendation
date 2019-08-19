@@ -20,11 +20,13 @@ class movie_recommend(TemplateView):
         # self.data = {'Dangal': {'Year': '2016', 'Genre': ['Action', ' Biography', ' Drama', ' Sport'], 'Poster': 'https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg', 'imdbRating': '8.4', 'imdbVotes': 12.6072, 'BoxOffice': 12.382287, 'Rotten_Tomatoes': '88%', 'Link': 'https://www.youtube-nocookie.com/embed/x_7YlGv9u1g'}, 'Rang De Basanti': {'Year': '2006', 'Genre': ['Comedy', ' Drama'], 'Poster': 'https://m.media-amazon.com/images/M/MV5BM2I3OGU1YmQtNjIyOC00OGYzLWFkOTgtOGIyMDVlNmE2M2VmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg', 'imdbRating': '8.2', 'imdbVotes': 10.1468, 'BoxOffice': 'N/A', 'Link': 'https://www.youtube-nocookie.com/embed/QHhnhqxB4E8'}, 'Dil Chahta Hai': {
         #    'Year': '2001', 'Genre': ['Comedy', ' Drama', ' Romance'], 'Poster': 'https://m.media-amazon.com/images/M/MV5BMzcxOWU3ZTAtZmYwYS00MzJmLWI1MmEtYmJlOTFjYTAxMWUwXkEyXkFqcGdeQXVyODk1MzE5NDA@._V1_SX300.jpg', 'imdbRating': '8.2', 'imdbVotes': 6.1216, 'BoxOffice': 'N/A', 'Link': 'https://www.youtube-nocookie.com/embed/m13b25V0B10'}, 'Ghajini': {'Year': '2008', 'Genre': ['Action', ' Drama', ' Mystery', ' Thriller'], 'Poster': 'https://m.media-amazon.com/images/M/MV5BMjU4N2ZlYTktNTFlNy00OGZmLWEwZWQtZDllMjk1MzhiZDEzXkEyXkFqcGdeQXVyODE0NjUxNzY@._V1_SX300.jpg', 'imdbRating': '7.3', 'imdbVotes': 5.2343, 'BoxOffice': 2.411071, 'Rotten_Tomatoes': '50%', 'Link': 'https://www.youtube-nocookie.com/embed/_I0xx8Oj3Ww'}}
         self.movie_name = request.POST['search']
-        try:
-            self.data = get_sorted_recommendations(self.movie_name.split(','))
-            # pass
-        except:
-            pass
+        if self.movie_name != '':
+            try:
+                self.data = get_sorted_recommendations(
+                    self.movie_name.split(','))
+                # pass
+            except:
+                pass
         return render(request, 'movie/index.html', {'data': self.data})
 
 
