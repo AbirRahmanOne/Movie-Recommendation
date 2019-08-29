@@ -5697,7 +5697,7 @@ button.close {
 
 .badge-danger {
   color: #ffffff;
-  background-color: #f44336;
+  background-color:  #c21a30;
 }
 
 .badge-danger[href]:hover,
@@ -19954,14 +19954,14 @@ Copyright (c) 2015 Daniel Eden
 
 .dark-edition .btn.btn-danger {
   color: #fff;
-  background-color: #d22824;
+  background-color: #c21a30;
   border-color: #f44336;
   box-shadow: 0 2px 2px 0 rgba(210, 40, 36, 0.14), 0 3px 1px -2px rgba(210, 40, 36, 0.2), 0 1px 5px 0 rgba(210, 40, 36, 0.12);
 }
 
 .dark-edition .btn.btn-danger:hover {
   color: #fff;
-  background-color: #db2f2b;
+  background-color: #e11b0c;
   border-color: #e11b0c;
 }
 
@@ -19969,7 +19969,7 @@ Copyright (c) 2015 Daniel Eden
 .dark-edition .btn.btn-danger.focus,
 .dark-edition .btn.btn-danger:hover {
   color: #fff;
-  background-color: #db2f2b;
+  background-color: #e11b0c;
   border-color: #e11b0c;
 }
 

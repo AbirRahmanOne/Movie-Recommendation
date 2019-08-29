@@ -31,11 +31,12 @@
                         {% endif %}
                     </div>
                     <div class="card-body col-sm-6 col-md-6 ">
-                        <h4 class="card-title">IMDB:</h4>
+                        <img src=" {% static 'img/imdb.svg' %}" width="35px" height="35px" />
                         <button class="btn btn-success btn-sm">{{ j.imdbRating }}</button>
                         <span class="badge badge-danger">{{ j.imdbVotes|floatformat:-1 }}K Votes</span>
+                        <br>
                         {% if j.Type == 'movie' %}
-                        <h4 class="card-title ">Rotten Tomatoes:</h4>
+                        <img src="{% static 'img/Rotten.svg' %}" width="35px" height="35px" />
                         {% if j.Rotten_Tomatoes %}
                         <button class="btn btn-success btn-sm">{{ j.Rotten_Tomatoes }}</button>
                         {% else %}
