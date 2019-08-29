@@ -5697,7 +5697,7 @@ button.close {
 
 .badge-danger {
   color: #ffffff;
-  background-color:  #c21a30;
+  background-color: #c21a30;
 }
 
 .badge-danger[href]:hover,
@@ -19961,7 +19961,7 @@ Copyright (c) 2015 Daniel Eden
 
 .dark-edition .btn.btn-danger:hover {
   color: #fff;
-  background-color: #e11b0c;
+  background-color: #d22824;
   border-color: #e11b0c;
 }
 
@@ -19969,7 +19969,7 @@ Copyright (c) 2015 Daniel Eden
 .dark-edition .btn.btn-danger.focus,
 .dark-edition .btn.btn-danger:hover {
   color: #fff;
-  background-color: #e11b0c;
+  background-color: #d22824;
   border-color: #e11b0c;
 }
 
