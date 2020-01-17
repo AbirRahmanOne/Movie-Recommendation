@@ -1,4 +1,4 @@
 wheel
-Django
+Django~=2.2.3
 requests
 python-decouple
