@@ -1,5 +1,5 @@
 # Movie Recommendation #
-## This is a Django based [Web App](https://prince004.pythonanywhere.com/) for finding similar movies or tv series. ##
+## This is a Django based [Web App](https://prince004.pythonanywhere.com/) for finding similar Movies or Tv Series. ##
 
 ### Movie Search ##
 * Type the name of a movie in **search bar** & the **search result** consist of:
