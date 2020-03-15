@@ -10,5 +10,9 @@
   * Movie **genre** (If available)
 
 
-### Example for movie search **Forrest gump**:
-!(Movie)[https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Movie.png]
+* Example for **movie** search **Forrest gump**:
+
+![Movie](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Movie.png)
+* Example for **tv series** search **Person of interest**:
+
+![Movie](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Tv%20Series.png)
