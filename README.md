@@ -21,11 +21,11 @@
   * Open a free account & apply for api key.
   * Copy & paste the api key in .env file section on a specific variable.(Detail instruction given into .env file)
 
-* Example for **movie** search **Forrest gump**:
+* Example for **movie** search type on search bar **Forrest gump**:
 
 ![Movie](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Movie.png)
-* Example for **tv series** search **Person of interest**:
+* Example for **tv series** search type on search bar **Person of interest**:
 
-![Movie](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Tv%20Series.png)
+![Tv Series](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Tv%20Series.png)
 
 
