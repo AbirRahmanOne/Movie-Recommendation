@@ -23,9 +23,9 @@
 
 * Example for **movie** search type on search bar **Forrest gump**:
 
-![Movie](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Movie.png)
+![Movie](https://github.com/Mazhar004/Movie-Recommendation/blob/master/readme_data/Movie.png)
 * Example for **tv series** search type on search bar **Person of interest**:
 
-![Tv Series](https://github.com/Mazhar004/movie_recommendation/blob/master/readme_data/Tv%20Series.png)
+![Tv Series](https://github.com/Mazhar004/Movie-Recommendation/blob/master/readme_data/Tv%20Series.png)
 
 
